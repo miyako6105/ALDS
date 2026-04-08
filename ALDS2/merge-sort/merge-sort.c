@@ -84,4 +84,3 @@ void merge_sort(int left, int right)
         }
     }
 }
-
