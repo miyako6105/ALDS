@@ -42,4 +42,4 @@ gcc hoge.c -o hoge
 - [C言語によるはじめてのアルゴリズム入門 改訂第5版](https://gihyo.jp/book/2023/978-4-297-13673-4)
 - [あるごりずむ](https://www.kindaikagaku.co.jp/book_list/detail/9784764903203/)
 - [アルゴリズムイントロダクション第3版 第1巻](https://www.kindaikagaku.co.jp/book_list/detail/9784764904064/)
--[アルゴリズムイントロダクション 第3版 第2巻](https://www.kindaikagaku.co.jp/book_list/detail/9784764904071/)
+- [アルゴリズムイントロダクション 第3版 第2巻](https://www.kindaikagaku.co.jp/book_list/detail/9784764904071/)
