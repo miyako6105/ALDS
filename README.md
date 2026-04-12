@@ -10,6 +10,7 @@
 
 ### ADLS2
 - merge-sort: マージソート関連
+- quick-sort: クイックソート関連
 
 
 
