@@ -1,5 +1,5 @@
 # ALDS
-「アルゴリズムとデータ構造（ALgorithm and DataStructure）」の講義用リポジトリ
+「アルゴリズムとデータ構造（ALgorithm and DataStructure）」の講義復習用リポジトリ
 
 ## フォルダ構造
 - ALDS1：「アルゴリズムとデータ構造１」に関係するプログラム置き場
