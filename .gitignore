@@ -1,4 +1,7 @@
 *.exe
 *.out
 *-enshu.c
+*-enshu
 *.app
+*-hw
+*-hw.c
