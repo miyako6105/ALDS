@@ -1,11 +1,10 @@
 #include<stdio.h>
-#include "swap.h"
-
 #define N 10 // 配列の要素数
 
 // 配列の宣言と初期化
 int a[N] = {42, 33, 78, 19, 46, 63, 25, 11, 54, 17};
 
+void swap(int *x, int *y); // 2つの整数を交換する関数の宣言
 int partition(int left, int right); // パーティション関数の宣言
 void quick_sort(int left, int right); // クイックソート関数の宣言
 
@@ -29,6 +28,14 @@ int main(void) {
     }
     printf("\n");
     return 0; // プログラムの終了
+}
+
+// MARK: swap
+void swap(int *x, int *y) {
+    int tmp; // 交換に使用する一時変数
+    tmp = *x; // xの値をtmpに保存
+    *x = *y; // yの値をxにコピー
+    *y = tmp; // tmpの値をyにコピー
 }
 
 // MARK: partition
