@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "swap.h"
 
 #define N 10 // 配列の要素数
 
@@ -54,13 +55,14 @@ int partition(int left, int right) {
             printf("i = %d, j = %d, a[i] = %d, a[j] = %d\n", i, j, a[i], a[j]); // iとjの位置とa[i]とa[j]の値を表示して確認する
 
             // i番目とj番目の要素を swap
-            tmp = a[i];
-            a[i] = a[j];
-            a[j] = tmp;
+            swap(&a[i], &a[j]);
             i++; // iを進める
             j--; // jを戻す
         }
     }
+
+    // leftとpivotの位置を交換
+    swap(&a[left], &a[j]);
 
     return j; // jは枢軸の最終的な位置を指す
 }
@@ -76,4 +78,5 @@ void quick_sort(int left, int right) {
         quick_sort(left, j - 1); // 左側の部分配列をクイックソート
         quick_sort(j + 1, right); // 右側の部分配列をクイックソート
     }
+
 }
