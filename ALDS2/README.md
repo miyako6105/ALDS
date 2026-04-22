@@ -7,3 +7,4 @@
     - merge-sort.c: マージソートのプログラム
     - merge-sort-simulation.c: ランダムに生成した数がマージソートでソートされる過程を可視化するプログラム
 - quick-sort: クイックソート関連
+    - quick-sort.c: クイックソートのプログラム
