@@ -2,6 +2,7 @@
 *.out
 *-enshu.c
 *-enshu
+*-enshu*
 *.app
 *-hw
 *-hw.c
