@@ -46,7 +46,7 @@ void delete_list(List *L, int i) {
             delete_list(L->next, i-1); // 再帰的に次の要素にアクセス
         } else {
             del = L->next; // 削除する要素を取得
-            L->next = del->next; // 現在の要素の次のポインタを削除する要素の次の要素に設定
+            L->next = L->next->next; // 現在の要素の次のポインタを削除する要素の次の要素に設定
             free(del); // メモリの解放
         }
     } else {
